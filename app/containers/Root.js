@@ -1,7 +1,11 @@
-import React, { Component, PropTypes } from 'react';
+import React from 'react';
 
-const Root = ({ children }) => (
-  <div className="root">{children}</div>
+import Greetings from '../components/Greetings';
+
+const Root = () => (
+  <div className="root">
+    <Greetings name="World" />
+  </div>
 );
 
 export default Root;

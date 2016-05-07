@@ -2,13 +2,13 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Greeting from './components/greetings';
 
+import Root from './containers/Root';
 import './styles/base.css';
 
 const rootElement = document.getElementById('root');
 
 ReactDOM.render(
-  <Greeting name="World" />,
+  <Root />,
   rootElement
 );

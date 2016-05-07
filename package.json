@@ -5,7 +5,8 @@
   "scripts": {
     "dev:compile": "rimraf dist && webpack --progress --colors",
     "prod:compile": "rimraf dist && set NODE_ENV=production && webpack -p --progress --colors",
-    "start": "webpack-dev-server --progress --hot --inline"
+    "start": "webpack-dev-server --progress --hot --inline",
+    "lint": "eslint . --ext .js --ignore-path .gitignore --cache"
   },
   "author": "Frederik Dietz",
   "license": "MIT",
